@@ -1,0 +1,125 @@
+.main {
+    border:green solid 2px;
+    height: 100vh;
+}
+/* <!-- Barra de navegacion --> */
+.nav {
+    border:2px solid purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    cursor: pointer;
+    
+}
+
+.logo-nav {
+    border: 2px solid crimson;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+.logo-word {
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bolder;
+    color: #cc0000;
+    margin-left:5px ;
+
+
+}
+
+.nav-items {
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.nav-links {
+    font-weight: bold;
+}
+
+.btn {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 5px ;
+
+}
+
+.btn-1 {
+    color: aliceblue;
+    background-color: #e60023;
+
+}
+
+.btn-2 {
+    background-color: #efefef;
+}
+
+/* cuando tengamos un minimo de ancho de 766px vas a aplicar un backgroud color green */
+@media (min-width: 766px){
+    *{
+        background-color: rgb(43, 226, 61);
+    }
+
+}
+
+/* en este caso se va a aplicar el siguiente estilo a todo lo qeu se encuentre por debajo de 426px */
+@media (max-width: 426px){
+    *{
+        background-color: blueviolet;
+    }
+}
+
+
+/* <!-- Aquí va header -->
+ */
+
+header {
+    border:2px solid pink;
+}
+
+.div-head-1 {
+    border:2px solid greenyellow;
+    height:35px ;
+
+}
+
+.div-head-2{
+    border: #e60023 2px solid;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: 600;
+    font-size: 60px;
+    
+}
+
+.div-head-3 {
+    font-size:50px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#c28b00;
+}
+
+.div-head-4 {
+    text-align: center;
+    margin-top: auto;
+    
+}
+
+
+/* <!-- Aqui section 1 --> */
+
+.section-1 {
+    border:solid 2px blue;
+
+}
